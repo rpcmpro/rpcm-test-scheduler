@@ -1,0 +1,45 @@
+{
+    "interHostSchedulingIntervalMilliseconds": 1000,
+    "interCheckIntervalMinutes": 1,
+    "retryCountOnNotSuccess": 3,
+    "interRetryMilliseconds": 60000,
+    "rpcmApiRequestTimeoutMilliseconds": 10000,
+    "logging": {
+        "loggingTargets": [{
+            "loggingTargetType": "file",
+            "loggingTargetFilename": "./logSuccessFalse.txt",
+            "filter": "successFalse"
+        },{
+            "loggingTargetType": "file",
+            "loggingTargetFilename": "./logEverything.txt",
+            "filter": "everything"
+        }
+        ]
+    },
+    "targets": [{
+        "rpcmIpOrFqdn": "10.210.1.249",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.210.1.254",
+        "rpcmApiKey": "cce32379159f006091a8a57a55c3fe63",
+        "testType": "powerOnOff"
+    }
+    ]
+}
+
+//TODO
+// 1. ApiKey --done
+// 2. Severity --done
+// 3. CLI logger / snmp trap sand --
+// 4. Github
+// 5. Readme for git
+// 6. Add license --done
+
+//severity [info, alert, warning]
+// 
+
+// Readme --done
+// Params --done
+// License --done
