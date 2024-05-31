@@ -1,0 +1,9 @@
+{
+    "name": "RPCMTestScheduler",
+    "version": "0.1.1",
+    "license": "MIT",
+    "authors": "Dennis Neshtoon & Nikolai Babukhin",
+    "dependencies": {
+        "jsonc-parser": "^3.2.1"
+    }
+}
