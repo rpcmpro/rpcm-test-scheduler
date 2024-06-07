@@ -39,6 +39,9 @@ const { values } = parseArgs({
       },
       d: {
         type: 'boolean',
+      },
+      console: {
+        type: 'boolean',
       }
     },
     strict: true,
@@ -46,7 +49,7 @@ const { values } = parseArgs({
 });
 
 if (values.version && !values.config) {
-    console.log('0.1.1')
+    console.log('0.1.2')
     process.exit()
 }
 
@@ -63,7 +66,9 @@ if (!loggerBeginStatus.success) {
     process.exit();
 }
 
-daemonize();
+if (!values.console) {
+  daemonize();
+}
 
 while(true) {
     for(let targetNumber = 0; targetNumber < configJSON.targets.length; targetNumber++) {
