@@ -1,8 +1,7 @@
 #!/usr/bin/env bun
 import {parseArgs} from 'util';
-//const configFile = Bun.file(logFile);
 
-const { values, positionals } = parseArgs({
+const { positionals } = parseArgs({
     args: Bun.argv,
     strict: false,
     allowPositionals: true,
@@ -88,3 +87,4 @@ console.log(`Number of IPs only with errors: ${successFalseOnlyCount} (of ${tota
 console.log(`Number of IPs with errors and no errors: ${successSometimesCount} (of ${totalCount}) (${Math.round(successSometimesCount/totalCount*100)}%)`);
 
 
+// 

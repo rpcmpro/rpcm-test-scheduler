@@ -28,18 +28,3 @@
     }
     ]
 }
-
-//TODO
-// 1. ApiKey --done
-// 2. Severity --done
-// 3. CLI logger / snmp trap sand --
-// 4. Github
-// 5. Readme for git
-// 6. Add license --done
-
-//severity [info, alert, warning]
-// 
-
-// Readme --done
-// Params --done
-// License --done
