@@ -49,7 +49,7 @@ const { values } = parseArgs({
 });
 
 if (values.version && !values.config) {
-    console.log('0.1.2')
+    console.log('0.1.3')
     process.exit()
 }
 
@@ -89,6 +89,7 @@ while(true) {
             success: true,
             message: `Waiting interHostSchedulingIntervalMilliseconds ${configJSON.interHostSchedulingIntervalMilliseconds} after rpcmIpOrFqdn ${rpcmIpOrFqdn}`,
             severity: 'info',
+            errorCode: 15, //Waiting for interHostSchedulingInterval
         });
         await Bun.sleep(configJSON.interHostSchedulingIntervalMilliseconds);
     }
@@ -97,6 +98,7 @@ while(true) {
         success: true,
         message: `Waiting interCheckIntervalMinutes ${configJSON.interCheckIntervalMinutes}`,
         severity: 'info',
+        errorCode: 16, //Waiting for interCheckInterval
     });
     await Bun.sleep(configJSON.interCheckIntervalMinutes * 60 * 1000);
 }
