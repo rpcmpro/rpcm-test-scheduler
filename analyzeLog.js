@@ -30,7 +30,10 @@ fileValue.split("\n").forEach((line) => {
     return;
   }
 
-  let { success, target, serialName, error } = j;
+  let { success, target, serialName, error, errorCode, errorCount } = j;
+  
+  errorCode = errorCode===undefined ? errorCount : errorCode
+
   if (!target) return;
   if (!statsByIP.hasOwnProperty(target)) {
     statsByIP[target] = { successTrueCount: 0, successFalseCount: 0 };

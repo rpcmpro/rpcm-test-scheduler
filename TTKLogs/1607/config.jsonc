@@ -1,0 +1,911 @@
+{
+    "interHostSchedulingIntervalMilliseconds": 1000,
+    "interCheckIntervalMinutes": 60,
+    "retryCountOnNotSuccess": 3,
+    "interRetryMilliseconds": 60000,
+    "rpcmApiRequestTimeoutMilliseconds": 10000,
+    "logging": {
+        "loggingTargets": [{
+            "loggingTargetType": "file",
+            "loggingTargetFilename": "./logSuccessFalse.txt",
+            "filter": "successFalse"
+        },{
+            "loggingTargetType": "file",
+            "loggingTargetFilename": "./logEverything.txt",
+            "filter": "everything"
+        }
+        ]
+    },
+    "targets": [{
+        "rpcmIpOrFqdn": "10.2.19.33",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.19.41",
+        "rpcmApiKey": "3dace360a17498bb6256edc5a969939a",
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.10.33",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.10.41",
+        "rpcmApiKey": "3dace360a17498bb6256edc5a969939a",
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.11.33",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.11.41",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.12.33",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.12.41",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.13.33",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.13.41",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.14.33",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.14.41",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.15.33",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.15.41",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.16.33",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.16.41",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.17.33",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.17.41",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.18.33",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.18.41",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.20.33",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.20.41",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.22.33",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.2.22.41",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.0.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.0.18",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.2.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.2.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.3.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.3.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.4.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.4.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.5.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.5.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.6.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.6.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.7.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.7.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.8.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.8.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.9.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.9.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.10.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.10.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.11.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.11.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.12.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.12.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.13.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.13.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.14.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.14.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.15.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.15.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.16.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.16.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.17.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.17.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.18.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.18.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.19.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.19.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.21.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.21.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.22.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.22.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.23.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.23.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.24.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.24.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.25.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.25.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.26.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.26.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.27.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.27.14",
+        "rpcmApiKey": "b0a5856c84bc5963a60501688fc8fa5f",
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.28.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.28.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.29.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.29.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.30.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.30.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+//    {
+//        "rpcmIpOrFqdn": "10.3.31.10",
+//       "rpcmApiKey": null,
+//        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+//    },
+//    {
+//        "rpcmIpOrFqdn": "10.3.31.14",
+//        "rpcmApiKey": null,
+//        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+//    },
+//    {
+//        "rpcmIpOrFqdn": "10.3.32.10",
+//        "rpcmApiKey": null,
+//        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+//    },
+//    {
+//        "rpcmIpOrFqdn": "10.3.32.14",
+//        "rpcmApiKey": null,
+//        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+//    },
+//    {
+//        "rpcmIpOrFqdn": "10.3.33.10",
+//        "rpcmApiKey": null,
+//        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+//    },
+//    {
+//        "rpcmIpOrFqdn": "10.3.33.14",
+//        "rpcmApiKey": null,
+//        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+//    },
+    {
+        "rpcmIpOrFqdn": "10.3.34.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.34.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.35.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.35.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.36.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.36.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.37.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.37.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+//    {
+//        "rpcmIpOrFqdn": "10.3.38.10",
+//        "rpcmApiKey": null,
+//        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+//    },
+//    {
+//        "rpcmIpOrFqdn": "10.3.38.14",
+//        "rpcmApiKey": null,
+//        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+//    },
+    {
+        "rpcmIpOrFqdn": "10.3.39.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.39.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.40.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.40.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.41.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.41.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.42.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.42.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.43.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.43.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.44.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.44.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.45.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.45.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+//    {
+//        "rpcmIpOrFqdn": "10.3.46.10",
+//        "rpcmApiKey": null,
+//        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+//    },
+//    {
+//        "rpcmIpOrFqdn": "10.3.46.14",
+//        "rpcmApiKey": null,
+//        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+//    },
+    {
+        "rpcmIpOrFqdn": "10.3.47.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.47.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.48.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.48.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.49.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.49.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.50.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.50.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.51.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.51.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.52.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.52.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.53.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.53.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.54.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.54.14",
+        "rpcmApiKey": "0639c42e35ad741f37c58b611e033da4",
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.55.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.55.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.56.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.56.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.57.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.57.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.58.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.58.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.59.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.59.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.60.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.60.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.61.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.61.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.62.10",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    {
+        "rpcmIpOrFqdn": "10.3.62.14",
+        "rpcmApiKey": null,
+        "testType": "recognitionOnOff"
+//        "testType": "powerOnOff"
+    },
+    ]
+}
+
+//TODO
+// 1. ApiKey --done
+// 2. Severity --done
+// 3. CLI logger / snmp trap sand --
+// 4. Github
+// 5. Readme for git
+// 6. Add license --done
+
+//severity [info, alert, warning]
+// 
+
+// Readme --done
+// Params --done
+// License --done
