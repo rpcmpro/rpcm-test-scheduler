@@ -1,6 +1,9 @@
 /node_modules
+/TTKLogs
+/.idea
 
 .DS_Store
 logEverything.txt
 logSuccessFalse.txt
 bun.lockb
+message.txt
