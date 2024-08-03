@@ -8,7 +8,7 @@ and log results.
 ## Installation
 1. Fork this repo
 
-git clone https://github.com/rpcmpro/rpcm-test-scheduler.git
+```git clone https://github.com/rpcmpro/rpcm-test-scheduler.git```
 
 2. Install Bun on [official site](https://bun.sh/)
 Linux/MacOs example:
