@@ -17,13 +17,13 @@ Linux/MacOs example:
 ```bash
 curl -fsSL https://bun.sh/install | bash
 ```
-4. Install dependencies
+3. Install dependencies
 ```bash
 bun install
 ```
-5. If you need, change configuration (more in `How to use`)
+4. If you need, change configuration (more in `How to use`)
    
-6. Run `RPCM Test Scheduler`
+5. Run `RPCM Test Scheduler`
 Linux/MacOs example:
 ```bash
 bun ./rpcmTestScheduler.js
